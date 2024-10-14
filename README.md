@@ -12,14 +12,14 @@ A escolha da API de filmes oferece um caso de uso prático para avaliar a efici�
 
 ## Estrutura do Projeto
 
-- **Public**: Contém arquivos públicos e assets estáticos.
-- **Src**: Contém o código principal do projeto.
+- **public**: Contém arquivos públicos e assets estáticos.
+- **src**: Contém o código principal do projeto.
   - **assets**: Ícones e outros assets gráficos.
   - **components**: Componentes reutilizáveis como `MovieCard` e `MovieList`, que seguem o padrão de Atomic Design.
   - **pages**: Páginas principais, incluindo `Home` e `MovieDetails`.
   - **store**: Gerenciamento de estado usando Jotai e armazenamento em cache.
   - **styles**: Arquivos de estilo, incluindo o principal `index.css`.
-  - **setupTests.ts**: Configuração de ambiente para testes.
+  - **types.ts**: Tipos e interfaces utilizado nos componentes.
 
 ## Configuração Inicial
 
