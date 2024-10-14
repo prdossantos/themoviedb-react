@@ -19,7 +19,7 @@ A escolha da API de filmes oferece um caso de uso prático para avaliar a efici�
   - **pages**: Páginas principais, incluindo `Home` e `MovieDetails`.
   - **store**: Gerenciamento de estado usando Jotai e armazenamento em cache.
   - **styles**: Arquivos de estilo, incluindo o principal `index.css`.
-  - **types.ts**: Tipos e interfaces utilizado nos componentes.
+  - **types**: Tipos e interfaces utilizado nos componentes.
 
 ## Configuração Inicial
 
