@@ -1,11 +1,5 @@
 import { Link } from 'react-router-dom';
-
-interface Movie {
-  id: number;
-  title: string;
-  poster_path: string;
-  release_date: string;
-}
+import { Movie } from '../types/movie';
 
 interface MovieCardProps {
   movie: Movie;

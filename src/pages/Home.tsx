@@ -54,7 +54,7 @@ const Home: React.FC = () => {
 
   if (isLoading && page === 1) {
     <Loader />;
-}
+  }
 
   return (
     <div className="container mx-auto p-4">

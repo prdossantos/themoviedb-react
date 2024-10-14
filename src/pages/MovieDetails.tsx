@@ -3,17 +3,7 @@ import { useAtom } from 'jotai';
 import { useParams } from 'react-router-dom';
 import { atom } from 'jotai';
 import Loader from '../components/Loader';
-
-interface MovieDetails {
-  backdrop_path: string;
-  poster_path: string;
-  title: string;
-  overview: string;
-  release_date: string;
-  vote_average: number;
-  genres: { id: number; name: string }[];
-  runtime: number;
-}
+import type { MovieDetails } from '../types/movie';
 
 const movieDetailsAtom = atom<{ [id: string]: MovieDetails | undefined }>({});
 

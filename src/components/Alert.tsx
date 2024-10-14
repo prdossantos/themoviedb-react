@@ -14,7 +14,10 @@ const Alert: React.FC<AlertProps> = ({ message, type = 'info' }) => {
   };
 
   return (
-    <div className={`p-4 mb-4 rounded-lg flex items-center ${alertStyles[type]}`} role="alert">
+    <div
+      className={`p-4 mb-4 rounded-lg flex items-center ${alertStyles[type]}`}
+      role="alert"
+    >
       <svg
         className="w-5 h-5 mr-2"
         fill="currentColor"
