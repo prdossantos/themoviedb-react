@@ -59,7 +59,16 @@ const Home: React.FC = () => {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold text-white mb-6">Popular Movies</h1>
-      {error && <Alert message={error} type="error" />}
+      {error && (
+        <Alert
+          message={error}
+          type="error"
+          details="### Possible Solutions:
+    - Check your network connection.
+    - Ensure your API key is valid.
+    - Contact support if the issue persists."
+        />
+      )}
       <MovieList movies={movies} />
       {isLoading && <p className="text-center text-gray-400">Loading...</p>}
       <div ref={sentinelRef} className="h-10"></div>
